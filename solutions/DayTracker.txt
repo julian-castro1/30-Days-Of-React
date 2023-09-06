@@ -4,3 +4,4 @@ Day 03 - Created User Card
 Day 04 - Passed in data with jsx (already completed in Day 03)
 Day 05 - Passed props into functional component (already completed in Day 04)
 Day 06 - Level 1: Color dashboard, Level 2: Population graph, fixed forking
+Day 07 - Review of Class components vs Functional components
