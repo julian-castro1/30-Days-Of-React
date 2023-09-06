@@ -4,6 +4,8 @@ import profilePic from "./images/Julian_Gregory_Castro_16Aug2021_Austin-South.jp
 import "./UserCard.css";
 import "./colors.css";
 import { hexaColor } from './hexGen';
+import { tenHighestPopulation } from './population';
+import Bar from './Bar';
 
 function App() {
 
@@ -15,24 +17,22 @@ function App() {
 
   return (
     <>
-      <div className='color_title'>Colors</div>
-      <div className='colorGrid'>
-        {colors.map((color) => {
-          let style = {backgroundColor: color};
-          return <div className='color' id={color} style={style}>{color}</div>
+      <div className="title">World Population</div>
+      <div className="subtitle">Ten most populated countries</div>
+      <div className="bars">
+        {tenHighestPopulation.map((pop) => {
+          return (
+            <Bar
+              key={pop.country}
+              name={pop.country}
+              value={pop.population}
+              min={0}
+              max={7693165599}
+            />
+          );
         })}
       </div>
     </>
-    // <UserCard
-    //   // {name, verified, role, location, skills, profilePic, joinedDate}
-    //   name = "Julian Castro"
-    //   verified = {true}
-    //   role = "Software Engineer"
-    //   location = "Houston, TX"
-    //   skills = {skills}
-    //   profilePic = {profilePic}
-    //   joinedDate = "August 16, 2021"
-    // />
   );
 }
 
