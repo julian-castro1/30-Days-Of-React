@@ -1,0 +1,6 @@
+Day 01 - Did JS recap
+Day 02 - Completed general React overview
+Day 03 - Created User Card
+Day 04 - Passed in data with jsx (already completed in Day 03)
+Day 05 - Passed props into functional component (already completed in Day 04)
+Day 06 - 
