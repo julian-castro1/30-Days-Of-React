@@ -12,7 +12,7 @@
 .color_title{
     font-size: 25px;
     font-weight: 700;
-    color: white;
+    color: var(--text-color);
     text-align: center;
     padding: 30px;
 }
@@ -32,12 +32,12 @@
 .title{
     font-size: 40px;
     font-weight: 700;
-    color: white;
+    color: var(--text-color);
 }
 .subtitle{
     font: 20px;
     font-weight: 300;
-    color: white;
+    color: var(--text-color);
 }
 .bars{
     width: 100%;

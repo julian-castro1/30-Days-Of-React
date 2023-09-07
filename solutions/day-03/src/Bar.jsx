@@ -13,7 +13,6 @@ function Bar({name, value, min, max}){
         width: "80%",
         gap:"5px",
         borderRadius:"10px",
-        color: "white",
     }
     let textStyle = {
         flex: "1",
@@ -35,7 +34,6 @@ function Bar({name, value, min, max}){
     let dividerStyle = {
         height: "1px",
         width: "80%",
-        backgroundColor: "gray",
     }
 
     return(
